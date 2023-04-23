@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		738D947A29F58F4B00575876 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738D947929F58F4B00575876 /* AppDelegate.swift */; };
+		738D947C29F58F4B00575876 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738D947B29F58F4B00575876 /* SceneDelegate.swift */; };
+		738D947E29F58F4B00575876 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738D947D29F58F4B00575876 /* ViewController.swift */; };
+		738D948129F58F4B00575876 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 738D947F29F58F4B00575876 /* Main.storyboard */; };
+		738D948329F58F4C00575876 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 738D948229F58F4C00575876 /* Assets.xcassets */; };
+		738D948629F58F4C00575876 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 738D948429F58F4C00575876 /* LaunchScreen.storyboard */; };
+		738D949129F58F4C00575876 /* LegoTankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738D949029F58F4C00575876 /* LegoTankTests.swift */; };
+		738D949B29F58F4C00575876 /* LegoTankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738D949A29F58F4C00575876 /* LegoTankUITests.swift */; };
+		738D949D29F58F4C00575876 /* LegoTankUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738D949C29F58F4C00575876 /* LegoTankUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		738D948D29F58F4C00575876 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 738D946E29F58F4B00575876 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 738D947529F58F4B00575876;
+			remoteInfo = LegoTank;
+		};
+		738D949729F58F4C00575876 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 738D946E29F58F4B00575876 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 738D947529F58F4B00575876;
+			remoteInfo = LegoTank;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		738D947629F58F4B00575876 /* LegoTank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LegoTank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		738D947929F58F4B00575876 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		738D947B29F58F4B00575876 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		738D947D29F58F4B00575876 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		738D948029F58F4B00575876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		738D948229F58F4C00575876 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		738D948529F58F4C00575876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		738D948729F58F4C00575876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		738D948C29F58F4C00575876 /* LegoTankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LegoTankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		738D949029F58F4C00575876 /* LegoTankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegoTankTests.swift; sourceTree = "<group>"; };
+		738D949629F58F4C00575876 /* LegoTankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LegoTankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		738D949A29F58F4C00575876 /* LegoTankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegoTankUITests.swift; sourceTree = "<group>"; };
+		738D949C29F58F4C00575876 /* LegoTankUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegoTankUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		738D947329F58F4B00575876 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		738D948929F58F4C00575876 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		738D949329F58F4C00575876 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		738D946D29F58F4B00575876 = {
+			isa = PBXGroup;
+			children = (
+				738D947829F58F4B00575876 /* LegoTank */,
+				738D948F29F58F4C00575876 /* LegoTankTests */,
+				738D949929F58F4C00575876 /* LegoTankUITests */,
+				738D947729F58F4B00575876 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		738D947729F58F4B00575876 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				738D947629F58F4B00575876 /* LegoTank.app */,
+				738D948C29F58F4C00575876 /* LegoTankTests.xctest */,
+				738D949629F58F4C00575876 /* LegoTankUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		738D947829F58F4B00575876 /* LegoTank */ = {
+			isa = PBXGroup;
+			children = (
+				738D947929F58F4B00575876 /* AppDelegate.swift */,
+				738D947B29F58F4B00575876 /* SceneDelegate.swift */,
+				738D947D29F58F4B00575876 /* ViewController.swift */,
+				738D947F29F58F4B00575876 /* Main.storyboard */,
+				738D948229F58F4C00575876 /* Assets.xcassets */,
+				738D948429F58F4C00575876 /* LaunchScreen.storyboard */,
+				738D948729F58F4C00575876 /* Info.plist */,
+			);
+			path = LegoTank;
+			sourceTree = "<group>";
+		};
+		738D948F29F58F4C00575876 /* LegoTankTests */ = {
+			isa = PBXGroup;
+			children = (
+				738D949029F58F4C00575876 /* LegoTankTests.swift */,
+			);
+			path = LegoTankTests;
+			sourceTree = "<group>";
+		};
+		738D949929F58F4C00575876 /* LegoTankUITests */ = {
+			isa = PBXGroup;
+			children = (
+				738D949A29F58F4C00575876 /* LegoTankUITests.swift */,
+				738D949C29F58F4C00575876 /* LegoTankUITestsLaunchTests.swift */,
+			);
+			path = LegoTankUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		738D947529F58F4B00575876 /* LegoTank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 738D94A029F58F4C00575876 /* Build configuration list for PBXNativeTarget "LegoTank" */;
+			buildPhases = (
+				738D947229F58F4B00575876 /* Sources */,
+				738D947329F58F4B00575876 /* Frameworks */,
+				738D947429F58F4B00575876 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LegoTank;
+			productName = LegoTank;
+			productReference = 738D947629F58F4B00575876 /* LegoTank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		738D948B29F58F4C00575876 /* LegoTankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 738D94A329F58F4C00575876 /* Build configuration list for PBXNativeTarget "LegoTankTests" */;
+			buildPhases = (
+				738D948829F58F4C00575876 /* Sources */,
+				738D948929F58F4C00575876 /* Frameworks */,
+				738D948A29F58F4C00575876 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				738D948E29F58F4C00575876 /* PBXTargetDependency */,
+			);
+			name = LegoTankTests;
+			productName = LegoTankTests;
+			productReference = 738D948C29F58F4C00575876 /* LegoTankTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		738D949529F58F4C00575876 /* LegoTankUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 738D94A629F58F4C00575876 /* Build configuration list for PBXNativeTarget "LegoTankUITests" */;
+			buildPhases = (
+				738D949229F58F4C00575876 /* Sources */,
+				738D949329F58F4C00575876 /* Frameworks */,
+				738D949429F58F4C00575876 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				738D949829F58F4C00575876 /* PBXTargetDependency */,
+			);
+			name = LegoTankUITests;
+			productName = LegoTankUITests;
+			productReference = 738D949629F58F4C00575876 /* LegoTankUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		738D946E29F58F4B00575876 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					738D947529F58F4B00575876 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					738D948B29F58F4C00575876 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 738D947529F58F4B00575876;
+					};
+					738D949529F58F4C00575876 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 738D947529F58F4B00575876;
+					};
+				};
+			};
+			buildConfigurationList = 738D947129F58F4B00575876 /* Build configuration list for PBXProject "LegoTank" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 738D946D29F58F4B00575876;
+			productRefGroup = 738D947729F58F4B00575876 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				738D947529F58F4B00575876 /* LegoTank */,
+				738D948B29F58F4C00575876 /* LegoTankTests */,
+				738D949529F58F4C00575876 /* LegoTankUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		738D947429F58F4B00575876 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				738D948629F58F4C00575876 /* LaunchScreen.storyboard in Resources */,
+				738D948329F58F4C00575876 /* Assets.xcassets in Resources */,
+				738D948129F58F4B00575876 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		738D948A29F58F4C00575876 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		738D949429F58F4C00575876 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		738D947229F58F4B00575876 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				738D947E29F58F4B00575876 /* ViewController.swift in Sources */,
+				738D947A29F58F4B00575876 /* AppDelegate.swift in Sources */,
+				738D947C29F58F4B00575876 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		738D948829F58F4C00575876 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				738D949129F58F4C00575876 /* LegoTankTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		738D949229F58F4C00575876 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				738D949D29F58F4C00575876 /* LegoTankUITestsLaunchTests.swift in Sources */,
+				738D949B29F58F4C00575876 /* LegoTankUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		738D948E29F58F4C00575876 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 738D947529F58F4B00575876 /* LegoTank */;
+			targetProxy = 738D948D29F58F4C00575876 /* PBXContainerItemProxy */;
+		};
+		738D949829F58F4C00575876 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 738D947529F58F4B00575876 /* LegoTank */;
+			targetProxy = 738D949729F58F4C00575876 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		738D947F29F58F4B00575876 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				738D948029F58F4B00575876 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		738D948429F58F4C00575876 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				738D948529F58F4C00575876 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		738D949E29F58F4C00575876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		738D949F29F58F4C00575876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		738D94A129F58F4C00575876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QDRV72U5HJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LegoTank/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Pentagram.LegoTank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		738D94A229F58F4C00575876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QDRV72U5HJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LegoTank/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Pentagram.LegoTank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		738D94A429F58F4C00575876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QDRV72U5HJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Pentagram.LegoTankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LegoTank.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LegoTank";
+			};
+			name = Debug;
+		};
+		738D94A529F58F4C00575876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QDRV72U5HJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Pentagram.LegoTankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LegoTank.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LegoTank";
+			};
+			name = Release;
+		};
+		738D94A729F58F4C00575876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QDRV72U5HJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Pentagram.LegoTankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LegoTank;
+			};
+			name = Debug;
+		};
+		738D94A829F58F4C00575876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QDRV72U5HJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Pentagram.LegoTankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LegoTank;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		738D947129F58F4B00575876 /* Build configuration list for PBXProject "LegoTank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				738D949E29F58F4C00575876 /* Debug */,
+				738D949F29F58F4C00575876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		738D94A029F58F4C00575876 /* Build configuration list for PBXNativeTarget "LegoTank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				738D94A129F58F4C00575876 /* Debug */,
+				738D94A229F58F4C00575876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		738D94A329F58F4C00575876 /* Build configuration list for PBXNativeTarget "LegoTankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				738D94A429F58F4C00575876 /* Debug */,
+				738D94A529F58F4C00575876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		738D94A629F58F4C00575876 /* Build configuration list for PBXNativeTarget "LegoTankUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				738D94A729F58F4C00575876 /* Debug */,
+				738D94A829F58F4C00575876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 738D946E29F58F4B00575876 /* Project object */;
+}
