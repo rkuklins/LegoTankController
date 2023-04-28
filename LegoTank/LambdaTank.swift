@@ -6,21 +6,20 @@
 //
 
 import Foundation
-import
 
 
 
 public class LambdaTank : Tank {
 
     
-    func sendMessage(text: String) {
+    override func sendMessage(text: String) {
         fatalError("Subclass must implement this method")
     }
 
     
-    func connect(host: String) -> Bool {
+    override func connect(host: String) -> Bool {
         fatalError("Subclass must implement this method")
-        
+        /*
         import AWSLambda
 
         // Set up the Lambda client
@@ -39,10 +38,10 @@ public class LambdaTank : Tank {
             print("Lambda function returned payload: \(String(data: payload, encoding: .utf8) ?? "")")
           }
         }
-
+*/
     }
 
-    func disconnect() {
+    override func disconnect() {
         fatalError("Subclass must implement this method")
     }
 
