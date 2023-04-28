@@ -16,6 +16,9 @@
 		738D949129F58F4C00575876 /* LegoTankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738D949029F58F4C00575876 /* LegoTankTests.swift */; };
 		738D949B29F58F4C00575876 /* LegoTankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738D949A29F58F4C00575876 /* LegoTankUITests.swift */; };
 		738D949D29F58F4C00575876 /* LegoTankUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738D949C29F58F4C00575876 /* LegoTankUITestsLaunchTests.swift */; };
+		73DC458C29FC2BFF0019C3B8 /* SocketTank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DC458B29FC2BFF0019C3B8 /* SocketTank.swift */; };
+		73DC458E29FC2E5A0019C3B8 /* Tank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DC458D29FC2E5A0019C3B8 /* Tank.swift */; };
+		73DC459129FC2F3F0019C3B8 /* LambdaTank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DC459029FC2F3F0019C3B8 /* LambdaTank.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		738D949629F58F4C00575876 /* LegoTankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LegoTankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		738D949A29F58F4C00575876 /* LegoTankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegoTankUITests.swift; sourceTree = "<group>"; };
 		738D949C29F58F4C00575876 /* LegoTankUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegoTankUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		73DC458B29FC2BFF0019C3B8 /* SocketTank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketTank.swift; sourceTree = "<group>"; };
+		73DC458D29FC2E5A0019C3B8 /* Tank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tank.swift; sourceTree = "<group>"; };
+		73DC459029FC2F3F0019C3B8 /* LambdaTank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LambdaTank.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,7 @@
 		738D947829F58F4B00575876 /* LegoTank */ = {
 			isa = PBXGroup;
 			children = (
+				73DC458F29FC2F2E0019C3B8 /* New Group */,
 				738D947929F58F4B00575876 /* AppDelegate.swift */,
 				738D947B29F58F4B00575876 /* SceneDelegate.swift */,
 				738D947D29F58F4B00575876 /* ViewController.swift */,
@@ -106,6 +113,9 @@
 				738D948229F58F4C00575876 /* Assets.xcassets */,
 				738D948429F58F4C00575876 /* LaunchScreen.storyboard */,
 				738D948729F58F4C00575876 /* Info.plist */,
+				73DC458B29FC2BFF0019C3B8 /* SocketTank.swift */,
+				73DC458D29FC2E5A0019C3B8 /* Tank.swift */,
+				73DC459029FC2F3F0019C3B8 /* LambdaTank.swift */,
 			);
 			path = LegoTank;
 			sourceTree = "<group>";
@@ -125,6 +135,13 @@
 				738D949C29F58F4C00575876 /* LegoTankUITestsLaunchTests.swift */,
 			);
 			path = LegoTankUITests;
+			sourceTree = "<group>";
+		};
+		73DC458F29FC2F2E0019C3B8 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +275,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73DC459129FC2F3F0019C3B8 /* LambdaTank.swift in Sources */,
 				738D947E29F58F4B00575876 /* ViewController.swift in Sources */,
 				738D947A29F58F4B00575876 /* AppDelegate.swift in Sources */,
+				73DC458E29FC2E5A0019C3B8 /* Tank.swift in Sources */,
+				73DC458C29FC2BFF0019C3B8 /* SocketTank.swift in Sources */,
 				738D947C29F58F4B00575876 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,11 +460,13 @@
 				DEVELOPMENT_TEAM = QDRV72U5HJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LegoTank/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -468,11 +490,13 @@
 				DEVELOPMENT_TEAM = QDRV72U5HJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LegoTank/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
